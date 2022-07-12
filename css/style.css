@@ -23,7 +23,7 @@
 
     height: 100Vh;
     width: 100%;
-    background: url("/image/bg.jpg");
+    background: url('/image/bg.jpg');
     background-blend-mode:multiply;
     background-size: cover;
 }
