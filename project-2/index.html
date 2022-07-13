@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <title>Hello, world!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- bootstrap icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+<body>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg" id="nav-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="image/india.png" width="50" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="bi bi-justify text-light" style="font-size: 28px"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Service
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">HTML</a></li>
+                            <li><a class="dropdown-item" href="#">CSS</a></li>
+                            <li><a class="dropdown-item" href="#">JAVASCRIPT</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li> -->
+                </ul>
+                <div>
+                    <!-- <li class="nav-item"> -->
+                    <!-- <a class="nav-link" href="#"></a> -->
+                    <!-- Button trigger modal -->
+                    <a href="index.html" type="text" class="text-white" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Login
+                    </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <!-- top user name picture  -->
+                                    <div class="text-center mx-auto">
+                                        <img class="text-center" src="image/user.png "
+                                            style="height: 150px; width: 150px" class="rounded" alt="..." />
+                                    </div>
+                                    <!-- end  top image  -->
+                                    <h5 class="modal-title" id="staticBackdropLabel"></h5>
+                                    <button type="button " class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text" id="basic-addon1"><i
+                                                class="bi bi-person-fill"></i>
+                                        </span>
+                                        <!-- <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"> -->
+                                        <input type="email" class="form-control" placeholder="Enter your email"
+                                            id="inputEmail4" />
+                                    </div>
+
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text" id="basic-addon1"><i
+                                                class="bi bi-person-fill"></i></span>
+                                        <!-- <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"> -->
+                                        <input type="password" class="form-control" placeholder="Enter your password"
+                                            id="inputPassword4" />
+                                    </div>
+                                    <!-- modal body end  -->
+                                </div>
+                                <p class="text-center">
+                                    Have not account please ?<a href="sign up.html">
+                                        sign up
+                                    </a>
+                                </p>
+                                <button type="button" class="btn btn-primary" style="width: 150px; margin: 20px auto"
+                                    data-dismiss="modal">
+                                    Login
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- modal end  -->
+                    <!-- </li> -->
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header backgound image -->
+
+    <div class="container-fluid" id="background-top">
+        <div class="row pt-5 pt-5 pb-2 justify-content-evenly">
+            <div class="col-md-4 border-5 pt-3 pb-2 text-center">
+                <img id="technology-log" class="border border-5 p-4" src="/image/technology.png" alt="" />
+            </div>
+            <div class="col-md-4 align-self-center text-center pt-3">
+                <h1 class="text-light text-center">Welcome To My site</h1>
+                <p class="p1 text-light pt-2 pb-2">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
+                    dolorum sed dolor ullam omnis nihil voluptatibus soluta in minus
+                    nulla doloremque quasi voluptates quaerat porro dolores, error
+                    architecto corrupti consequuntur.
+                </p>
+            </div>
+        </div>
+
+        <!-- svg  -->
+
+        <!-- <div class="row">
+            <div class="col-md-12">
+                <img src="image/Kerfin7_NEA_2330.jpg" alt="">
+            </div>
+        </div> -->
+
+        <!-- header end -->
+    </div>
+    <div class="container-fluid text-center pt-5 pb-2">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="display-6">VAIBHAV RAJ SINGH</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- html css java  -->
+
+    <div class="container pt-5 pb-5">
+        <div class="row text-center pt-2 pb-2 mx-1">
+            <div class="col-md-4 col-lg-4 pt-2 mt-5 pb-5" style="background-color: #ee5007">
+                <img class="pt-3 pb-2" src="image/html.png" width="50" alt="" />
+                <h1 class="h1 pt-3 pb-2">HTML LEARN</h1>
+                <p class="p1">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Praesentium ullam porro officia corporis quam recusandae ut
+                    voluptates alias voluptas esse atque, nihil dolorem hic maiores
+                    perspiciatis. Iure facilis commodi enim?
+                </p>
+                <a href="#"><button type="button" class="btn btn-primary mt-3">
+                        CLICK ME
+                    </button></a>
+            </div>
+            <div class="col-md-4 col-lg-4 pt-2 mt-5 pb-5" style="background-color: #006e7f">
+                <img class="pt-3 pb-2" src="image/css-3.png" width="50" alt="" />
+                <h1 class="h1 pt-3 pb-2">CSS LEARN</h1>
+                <p class="p1">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Praesentium ullam porro officia corporis quam recusandae ut
+                    voluptates alias voluptas esse atque, nihil dolorem hic maiores
+                    perspiciatis. Iure facilis commodi enim?
+                </p>
+                <a href="#"><button type="button" class="btn btn-primary mt-3">
+                        CLICK ME
+                    </button></a>
+            </div>
+            <div class="col-md-4 col-lg-4 pt-2 mt-5 pb-5" style="background-color: #1a3c40">
+                <img class="pt-3 pb-2" src="image/java-script 2.png" width="50" alt="" />
+                <h1 class="h1 pt-3 pb-2">JAVASCRIPT LEARN</h1>
+                <p class="p1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minus
+                    et velit quae commodi eos. Libero expedita mollitia quaerat pariatur
+                    blanditiis fugiat repellendus culpa cumque unde, soluta aliquid
+                    similique temp
+                </p>
+                <a href="#"><button type="button" class="btn btn-primary mt-4">
+                        CLICK ME
+                    </button></a>
+            </div>
+        </div>
+        <hr />
+    </div>
+
+    <!-- accordians  -->
+
+    <div class="container pt-5 pb-5">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Accordion Item #1
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is
+                        shown by default, until the collapse plugin adds the appropriate
+                        classes that we use to style each element. These classes control
+                        the overall appearance, as well as the showing and hiding via CSS
+                        transitions. You can modify any of this with custom CSS or
+                        overriding our default variables. It's also worth noting that just
+                        about any HTML can go within the <code>.accordion-body</code>,
+                        though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Accordion Item #2
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is
+                        hidden by default, until the collapse plugin adds the appropriate
+                        classes that we use to style each element. These classes control
+                        the overall appearance, as well as the showing and hiding via CSS
+                        transitions. You can modify any of this with custom CSS or
+                        overriding our default variables. It's also worth noting that just
+                        about any HTML can go within the <code>.accordion-body</code>,
+                        though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Accordion Item #3
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is
+                        hidden by default, until the collapse plugin adds the appropriate
+                        classes that we use to style each element. These classes control
+                        the overall appearance, as well as the showing and hiding via CSS
+                        transitions. You can modify any of this with custom CSS or
+                        overriding our default variables. It's also worth noting that just
+                        about any HTML can go within the <code>.accordion-body</code>,
+                        though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+    <div class="row justify-content-evenly bg-dark text-light pt-2 pb-5 mx-0">
+        <div class="col-md-3 pt-4">
+            <h3 class="">Bussines Mindset</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem quos
+                impedit adipisci vel quod mollitia fugit quis consectetur, magni
+                maxime non vitae perferendis eius alias in cum, minima earum?
+                Voluptatum?
+            </p>
+        </div>
+
+        <div class="col-md-3 pt-4">
+            <h3>Important Links</h3>
+            <a class="text-white" href="">Home</a> <br />
+            <a class="text-white" href="">About Us</a> <br />
+            <a class="text-white" href="">Contact Us</a> <br />
+            <a class="text-white" href="">Our Team </a> <br />
+            <a class="text-white" href="">Our Client</a>
+        </div>
+        <div class="col-md-3 pt-4">
+            <h3 class="mb-4 display-6">Contact</h3>
+            <p>
+                Mughalsarai(DDU) Patel Nagar <br />
+                Near 40 feet-road <br />
+                <i class="bi bi-telephone"></i> :+918542XXXXXX
+            </p>
+        </div>
+    </div>
+    <div class="row text-center bg-light pt-3 pb-1 mx-0">
+        <div class="col-12">
+            <p class="text-dark">&copy;2022</p>
+        </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

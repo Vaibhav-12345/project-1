@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+
+#nav-top{
+   padding: 20px 20px;
+   background-color:#000000;
+}
+
+.navbar-nav .nav-link {
+   color: white;
+}
+
+.navbar-toggler-icon {
+   color: white;
+}
+
+#background-top{
+    height: 100vh;
+    background: url("/image/bg.jpg");
+    background-blend-mode:multiply;
+    background-size: cover;
+}
+
+#technology-log{
+    margin-left: 5px;
+}
+
+
+.p1{
+    line-height: 2;
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+
+.text-white{
+    text-decoration: none;
+}
+
+.h1{
+    color: white;
+}
